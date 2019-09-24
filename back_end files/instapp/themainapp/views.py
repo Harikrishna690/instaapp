@@ -4,13 +4,11 @@ from django_filters.rest_framework import DjangoFilterBackend
 from rest_framework.filters import OrderingFilter, SearchFilter
 from rest_framework import viewsets
 from .serializers import UserSerializer, LikedSerializer, CommentSerializer, ImageSerializer, GetUserSerializer
-from .models import *
 from .filters import *
 from rest_framework.decorators import action
 from django.views.decorators.csrf import csrf_exempt
 from rest_framework.response import Response
 from django.http import HttpResponse, JsonResponse
-from django.template import RequestContext, loader
 # Create your views here.
 
 
