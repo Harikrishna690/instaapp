@@ -1,0 +1,40 @@
+<div className="positionimgs">
+<div className="cardset">
+    <div className="card-image">
+        <figure className="image is-5by2">
+            <img 
+                className="imgset" src={getStatic("/images.png")} 
+                alt="Placeholder"
+            /> 
+        </figure>
+    </div>
+</div>
+<div className="container">
+    {imagetags.map((item)=><div>{item}</div>)}
+</div>
+<div className="cardset">
+    <div className="card-image">
+        <figure className="image is-5by2">
+            <img 
+                 src={getStatic("/images.png")}
+                 alt="Placeholder" 
+            /> 
+        </figure>
+    </div>
+    <div className="card-content">
+        <h1>
+            this is the profile image
+        </h1>
+    </div>
+</div>
+<div className="cardset">
+    <div className="card-image">
+        <figure className="image is-5by2">
+            <img 
+                src={getStatic("/images.png")}
+                alt="Placeholder" 
+            /> 
+        </figure>
+    </div>
+</div>
+</div>

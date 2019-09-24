@@ -1,0 +1,60 @@
+.setitems { 
+    margin-top:10px;
+    display: flex   ;
+    justify-content: space-evenly;
+    text-align: center;
+    
+}
+.logo-text {
+    text-decoration-color: black;
+    font-size: 180%;
+    font-weight: bolder;
+    font-stretch: expanded;
+}
+
+.logo-img{
+    margin-top : -4%; 
+}
+.like{
+    float: left;
+    width:32px;
+}
+.pstyle{
+    float: left;
+}
+.imgset{
+    height: auto;
+    width: 35px;
+}
+
+.lstyle{
+    position: absolute;
+    text-align: center;
+    align-content: center;
+}
+
+.likes-block > h5 {
+    float: left;
+}
+
+.lnostyle{
+position: absolute;
+text-align: center;
+align-content: center;
+}
+
+.cardset{
+    width: 55%;
+    margin: auto;
+    margin-top: 10px;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.search-box {
+    width: 50%; 
+}
+
+.card-block {
+    margin-bottom: 5%;
+}
